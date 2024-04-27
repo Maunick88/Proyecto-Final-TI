@@ -1,0 +1,74 @@
+/* Establecer el color de fondo */
+body {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+}
+
+/* Establecer los colores de texto */
+h1, h2, h3, h4, h5, h6 {
+    color: #00205b; /* Azul oscuro para los encabezados */
+}
+
+p {
+    color: #00205b; /* Azul oscuro para el texto normal */
+}
+
+/* Cambiar el color de fondo y el texto del alert */
+.alert {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #a99000; /* Fondo dorado para el alert */
+    color: #00205b; /* Texto azul oscuro para el alert */
+}
+
+/* Cambiar el color de fondo y el texto de la clase exp */
+.exp {
+    border: 1px solid #FFD700; /* Borde dorado para las imágenes */
+}
+
+/* Cambiar el color de fondo y el texto de la clase container */
+.container {
+    padding: 3rem;
+    background-color: #ffffff; /* Color de fondo blanco para el contenedor */
+}
+
+/* Cambiar el color de fondo y el texto de los col-sm-8 */
+.col-sm-8 {
+    background-color: #ffffff; /* Color de fondo blanco para las columnas */
+    color: #00205b; /* Texto azul oscuro para el contenido de las columnas */
+}
+/* Azul UNAM */
+.color-azul {
+    color: #005596;
+}
+
+/* Dorado UNAM */
+.color-dorado {
+    color: #FFD700;
+}
+
+/* Fondo Azul UNAM */
+.fondo-azul {
+    background-color: #005596;
+}
+
+/* Fondo Dorado UNAM */
+.fondo-dorado {
+    background-color: #a99000;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    width: 70%; /* Opcional: asegura que la barra de navegación ocupe todo el ancho */
+}
+.burbuja-texto {
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.img-thumbnail{
+    background-color: #00205b;
+    border-color: #a99000;
+}
