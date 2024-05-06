@@ -11,10 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>	
     <link rel="stylesheet" href="style.css ">
 </head>
-<body class="fondo-dorado">
     <div class="container-fluid fondo-azul">
         <nav class="navbar navbar-expand-lg navbar-light color-azul" style="font-size: 1.3rem;" >
-            <a class="navbar-brand" href="index.html"><img src="../img/escudo_unam_completow.svg" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="../img/logo.png" alt="" width="150px" height="100px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,23 +27,47 @@
                         
                     </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="valor.html">Valor</a>
+                        <a class="nav-link" href="valor.html">Muñoz Hernández Jahir</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="co_creacion.html">Co creación del valor</a>
+                        <a class="nav-link" href="co_creacion.html">Valdez Bautista Miguel Ángel</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="gestion.html">Gestión de servicios</a>
+                        <a class="nav-link" href="gestion.html">Mauricio Nicolás Adame</a>
                       </li>
                     </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                    <li>
+                      <select onchange="redireccionar(this)">
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="opcion1">Valor</option>
+                        <option value="opcion2">Co creación del valor</option>
+                        <option value="opcion3">Gestión de servicios</option>
+                        <option value="opcion4">Organización</option>
+                        <option value="opcion5">Cliente, Usuario y Patrocinador</option>
+                        <option value="opcion6">Productos, Servicios y Recursos</option>
+                    </select>
+                  </li>
             </div>
         </nav> 
-    </div>  
-</div>
+    </div> 
+    <script>
+      function redireccionar(select) {
+          var opcionSeleccionada = select.value;
+          if (opcionSeleccionada === "opcion1") {
+              window.location.href = "valor.html";
+          } else if (opcionSeleccionada === "opcion2") {
+              window.location.href = "co_creacion.html";
+          } else if (opcionSeleccionada === "opcion3") {
+              window.location.href = "gestion.html";
+          } else if (opcionSeleccionada === "opcion4") {
+              window.location.href = "organi.html";
+          } else if (opcionSeleccionada === "opcion5") {
+              window.location.href = "cliente.html";
+          } else if (opcionSeleccionada === "opcion6") {
+              window.location.href = "producto.html";
+          }
+      }
+  </script>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-4">
@@ -97,9 +120,9 @@
                         </div>
                 </div>
                 <div class="col-md-12.5 mt-3">
-                    <div class="card" style="height: 65px; background-color: #EEF7FE  ;">
+                    <div class="card" style="height: 150px; background-color: #EEF7FE  ;">
                         <div class="card-body">
-                            <p class="card-text">Creador y administrador de un sistema en Linux para un centro de computo.</p>
+                            <p class="card-text">Soy estudiante de Informática en la UNAM con experiencia diversa. He trabajado como pedagogo en robótica,  soporte técnico, mantenimiento preventivo, logística y ventas. Mi pasión es la programación. Estoy comprometido con el aprendizaje constante y ansío desafíos en tecnología. Soy un candidato versátil y resolutivo.</p>
                         </div>
                     </div>
                 </div>
