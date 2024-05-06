@@ -10,6 +10,7 @@ img{
 }
 /* Establecer los colores de texto */
 h1, h2, h3, h4, h5, h6 {
+    text-align: center;
     color: #00205b; /* Azul oscuro para los encabezados */
 }
 select{
