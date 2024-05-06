@@ -2,12 +2,20 @@
 body {
     background-color: #f0f0f0; /* Color de fondo gris claro */
 }
-
+li{
+    filter: drop-shadow(1px 1px 10px #FFD700);
+}
+img{
+    filter: drop-shadow(1px 1px 30px #00205b);
+}
 /* Establecer los colores de texto */
 h1, h2, h3, h4, h5, h6 {
     color: #00205b; /* Azul oscuro para los encabezados */
 }
-
+select{
+    font-size: .8rem;
+    padding: 1px;
+}
 p {
     color: #00205b; /* Azul oscuro para el texto normal */
 }
@@ -19,7 +27,9 @@ p {
     background-color: #a99000; /* Fondo dorado para el alert */
     color: #00205b; /* Texto azul oscuro para el alert */
 }
-
+.nav-link{
+    filter: drop-shadow(1px 1px 20px #FFD700);
+}
 /* Cambiar el color de fondo y el texto de la clase exp */
 .exp {
     border: 1px solid #FFD700; /* Borde dorado para las imágenes */
@@ -55,11 +65,15 @@ p {
 .fondo-dorado {
     background-color: #a99000;
 }
+
 .navbar-nav {
+    
+    margin-top: 30px;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between; /* Ajusta el espacio entre los elementos */
     align-items: center; /* Alinea verticalmente los elementos */
-    width: 70%; /* Opcional: asegura que la barra de navegación ocupe todo el ancho */
+    width: 100%; /* Opcional: asegura que la barra de navegación ocupe todo el ancho */
 }
 .burbuja-texto {
     text-align: center;
