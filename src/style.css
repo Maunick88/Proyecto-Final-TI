@@ -6,6 +6,7 @@ li{
     filter: drop-shadow(1px 1px 10px #FFD700);
 }
 img{
+    max-width: 100%; height: auto;
     filter: drop-shadow(1px 1px 30px #00205b);
 }
 /* Establecer los colores de texto */
