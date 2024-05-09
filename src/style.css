@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0; /* Color de fondo gris claro */
 }
 li{
-    filter: drop-shadow(1px 1px 10px #FFD700);
+    /* filter: drop-shadow(1px 1px 10px #FFD700); */
 }
 img{
     max-width: 100%; height: auto;
@@ -31,7 +31,8 @@ p {
     color: #00205b; /* Texto azul oscuro para el alert */
 }
 .nav-link{
-    filter: drop-shadow(1px 1px 20px #FFD700);
+    /* color: #f0f0f0; */
+    /* filter: drop-shadow(1px 1px 20px #FFD700); */
 }
 /* Cambiar el color de fondo y el texto de la clase exp */
 .exp {
