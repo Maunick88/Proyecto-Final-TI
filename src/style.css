@@ -27,7 +27,7 @@ p {
 .alert {
     text-align: center;
     padding: 1.5rem;
-    background-color: #a99000; /* Fondo dorado para el alert */
+    background-color: #d4b503; /* Fondo dorado para el alert */
     color: #00205b; /* Texto azul oscuro para el alert */
 }
 .nav-link{
